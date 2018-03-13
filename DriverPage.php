@@ -5,6 +5,7 @@
 	<link rel="stylesheet" href="goCarShareStyles.css">
 </head>
 <body>
+	
 	<header>
 		<img src="companyLogo.png" alt="goCarShare Logo">
 	</header>	
@@ -15,9 +16,11 @@
 		<a href="routesOffer.html"><div>MY ROUTES OFFER</div></a>
 	</nav>
 	<hr>
-	
-	<div>
 
+	<div>
+<?php
+		include ('showAvailableRoutes.php');
+	?>
 	</div>
 
 </body>
