@@ -7,7 +7,7 @@
 </head>
 <body>
 
-<form method="post" action="connection.php" >
+<form method="post" action="login.php" >
   <div class="imgcontainer">
     <img src="companyLogo.png" alt="goCarShare" class="logo">
   </div>
