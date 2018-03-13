@@ -10,14 +10,14 @@
 	</header>	
 	<hr>
 	<nav class="Menu">
-		<a href="PassengerPage.html"><div>AVAILABLE OFFERS</div></a>
-		<a href="requestedRoutes.html"><div>REQUESTED OFFERS</div></a>
-		<a href="routesOffer.html"><div>MY ROUTES BOOKED</div></a>
+		<a href="PassengerPage.php"><div>AVAILABLE OFFERS</div></a>
+		<a href="requestedRoutes.php"><div>REQUESTED OFFERS</div></a>
+		<a href="routesOffer.php"><div>MY ROUTES BOOKED</div></a>
 	</nav>
 	<hr>
 
 	<nav id='content'> 
-		
+
 	</nav>
 </body>
 </html>

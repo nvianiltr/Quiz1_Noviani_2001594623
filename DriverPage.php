@@ -5,22 +5,22 @@
 	<link rel="stylesheet" href="goCarShareStyles.css">
 </head>
 <body>
-	
+
 	<header>
 		<img src="companyLogo.png" alt="goCarShare Logo">
 	</header>	
 	<hr>
 	<nav class="Menu">
-		<a href="driverPage"><div>AVAILABLE OFFERS</div></a>
-		<a href="requestedRoutes.html"><div>REQUESTED OFFERS</div></a>
-		<a href="routesOffer.html"><div>MY ROUTES OFFER</div></a>
+		<a href="DriverPage.php"><div>AVAILABLE OFFERS</div></a>
+		<a href="requestedRoutes.php"><div>REQUESTED OFFERS</div></a>
+		<a href="routesOffer.php"><div>MY ROUTES OFFER</div></a>
 	</nav>
 	<hr>
 
 	<div>
-<?php
-		include ('showAvailableRoutes.php');
-	?>
+		<?php
+			include ('showAvailableRoutes.php');
+		?>
 	</div>
 
 </body>
