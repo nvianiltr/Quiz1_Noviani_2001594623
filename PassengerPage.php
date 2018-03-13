@@ -17,7 +17,9 @@
 	<hr>
 
 	<nav id='content'> 
-
+		<?php
+			include ('showAvailableRoutes.php');
+		?>
 	</nav>
 </body>
 </html>
